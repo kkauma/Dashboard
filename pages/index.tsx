@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 import OpenNotify from "../components/OpenNotify";
 import OpenWeather from "../components/OpenWeather";
 
-// Home component
+// Home component, renders the main app
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
